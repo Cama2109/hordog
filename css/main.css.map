@@ -1,12 +1,12 @@
 {
     "version": 3,
-    "mappings": "AGAA,AAAA,KAAK,CAAA;EACD,KAAK,EFDO,OAAO;CEGtB",
+    "mappings": "",
     "sources": [
         "../Scss/main.scss",
         "../Scss/_variables.scss",
+        "../Scss/_mixin.scss",
         "../Scss/blocks/_blocks.scss",
-        "../Scss/blocks/_navbar.scss",
-        "../Scss/_mixin.scss"
+        "../Scss/blocks/_navbar.scss"
     ],
     "names": [],
     "file": "main.css"
