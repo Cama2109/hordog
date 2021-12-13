@@ -1,1 +1,144 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 92px;
+}
+
+.header-wrapper {
+  background-color: #fed700;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.navbar-input {
+  width: 309px;
+  height: 38px;
+  border-radius: 24px;
+  border-color: transparent;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.search-icon {
+  position: relative;
+  top: 5px;
+  left: -30px;
+}
+
+.navbar-button {
+  width: 27px;
+  height: 27px;
+  border: none;
+  margin-top: 26px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.navbar-button:hover {
+  background-color: #ffd900;
+  border: 1px solid;
+  border-color: beige;
+  border-radius: 5px;
+}
+
+.navbar-round-img {
+  width: 12px;
+  height: 10px;
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: #01a54e;
+  color: #f7f7f7;
+  padding: 2px 3px;
+  position: relative;
+  top: -30px;
+  left: 16px;
+}
+
+.navbar-round-img2 {
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: #01a54e;
+  color: #f7f7f7;
+  padding: 2px 3px;
+  position: relative;
+  top: -30px;
+  left: 16px;
+}
+
+.navbar-dog-head {
+  margin-top: 30px;
+}
+
+.header-card {
+  margin-left: 200px;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-card-title {
+  width: 315px;
+  height: 156px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 42px;
+  margin-top: 50px;
+}
+
+.header-card-text {
+  width: 315px;
+  height: 56px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: -20px;
+}
+
+.header-card-button {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
+          box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
+  border-radius: 60px;
+  border-color: transparent;
+  margin-top: -30px;
+  padding: 8px 18px;
+}
+
+.header-card-link {
+  text-decoration: none;
+  color: #0f0f0f;
+}
+
+.header-card-img {
+  width: 490px;
+  height: 219px;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=main.css.map */
