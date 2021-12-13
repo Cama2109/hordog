@@ -1,0 +1,33 @@
+.main-part-card{
+    width: 800px;
+    height:260px;
+    background-color:rgba(255, 143, 39, 1);
+    display:flex;
+    margin-left: 100px;
+    margin-top:30px;
+ 
+    border-radius: 20px;
+}
+.main-part-title{
+    color: #f7f7f7;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 900;
+font-size: 47px;
+line-height: 50px
+}
+.main-part-text{
+    color: #f7f7f7;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+
+}
+.main{
+    margin-left: 30px;
+}
+.main-part-img{
+    margin-top: 14px;
+}

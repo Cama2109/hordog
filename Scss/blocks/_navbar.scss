@@ -17,6 +17,7 @@ body{
     background-color: $color-navbar;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
 }
 .navbar-logo {
     width: 100px;
@@ -82,12 +83,12 @@ background-color: transparent;
         margin-top:30px;
     }
     .header-card {
-       margin-left: 200px;
+       margin-left:auto;
        margin-right:auto;
         display: flex;
         justify-content:center;
-
-      }
+       }
+       
       .header-card-title {
         width: 315px;
         height: 156px;
@@ -122,7 +123,18 @@ background-color: transparent;
         color: #0f0f0f;
       }
       .header-card-img {
-        width: 490px;
-        height: 219px;
-        margin-top: 100px;
+        width: 400px;
+        height: 239px;
+        margin-top: 90px;
       }
+
+  
+
+          
+        
+    
+   
+
+    
+
+      
