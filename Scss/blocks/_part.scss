@@ -3,8 +3,9 @@
     height:260px;
     background-color:rgba(255, 143, 39, 1);
     display:flex;
-    margin-left: 100px;
-    margin-top:30px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
  
     border-radius: 20px;
 }
@@ -27,7 +28,121 @@ line-height: 22px;
 }
 .main{
     margin-left: 30px;
+
 }
 .main-part-img{
     margin-top: 14px;
+}
+.headline{
+    display: flex;
+    justify-content:space-between;
+    
+    width: 800px;
+    height:32px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.headline-text{
+    color: #0f0f0f;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 32px;
+}
+.headline-button{
+    width: 25px;
+    height: 25px;
+    margin-left: -60px;
+    border-radius: 50%;
+    border-color: transparent;
+    padding:3px 6px;
+  
+}
+.headline-btn{
+    margin-top:30px;
+    background-color:#f7f7f71a;
+    
+}
+.cards{
+    width: 800px;
+    display: flex;
+   margin-left:auto;
+   margin-right: auto;
+   margin-top: 30px;
+    
+}
+.card-big-img{
+    margin-left: -30px;
+}
+.card1{
+    width: 190px;
+    height:359px;
+  
+ position: relative;
+margin-left: 20px;
+}
+.card-badge{
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+.card-heart{
+    position: relative;
+    top: -100px;
+    left: 150px;
+}
+.card-text1{
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 4px;
+color: #7B8E98;
+}
+.card-text2{
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #181717;
+}
+.card-badge2{
+    position: absolute;
+    left: -10px;
+    top: 20px;
+}
+.cart-button{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:20px;
+}
+.cart-button2{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:60px
+}
+.cart-button3{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:40px
+}
+.cart-button4{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:40px;
 }
