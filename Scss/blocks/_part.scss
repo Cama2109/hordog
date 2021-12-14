@@ -146,3 +146,132 @@ border: none !important;
 border-radius:22px;
 margin-top:40px;
 }
+.flex-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+
+}
+.flex-card1{
+    width: 428px;
+    height:220px;
+    background-color:rgba(216, 162, 23, 1);
+    border-radius:20px;
+    border: none;
+    color:  #f7f7f7;
+    margin-right: 10px
+  
+    
+}
+.flex-card2{
+    width: 428px;
+    height:220px;
+    background-color:rgba(36, 181, 190, 1);
+    border-radius:20px;
+    border: none;
+    color:  #f7f7f7;
+    margin-left: 10px;
+  
+    
+}
+.flex-card-title{
+    font-family:$font-primary ;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 90%;
+margin-left: 30px;
+}
+.flex-card-text{
+    font-family: $font-primary ;
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+margin-left: 30px;
+}
+.flex-card-text2{
+    font-family: $font-primary ;
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+margin-left: 30px;
+ width: 230px;
+}
+
+.flex-card-price{
+    font-family:$font-primary;
+    font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 32px;
+margin-left: 30px;
+}
+.flex-card-img{
+    width: 300px; 
+    height:218px;
+   
+background-blend-mode: overlay;
+
+    position: relative;
+    top: -217px;
+    left: 126px;
+}
+.flex-card-img2{
+    width: 300px; 
+    height:218px;
+   
+background-blend-mode: overlay;
+
+    position: relative;
+    top: -181px;
+    left: 125px;
+}
+.cart-button-2{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:20px
+}
+.cart-button-3{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top:2px;
+}
+.cart-button-one{
+    width: 115px;
+    height: 40px;
+    background-color:rgba(254, 215, 0, 1);
+border: none !important;
+border-radius:22px;
+margin-top: 24px;
+
+}
+.flex-card3{
+    width: 428px;
+    height:220px;
+    background-color:rgba(156, 205, 85, 1);
+    border-radius:20px;
+    border: none;
+    color:  #f7f7f7;
+    margin-right: 10px
+  
+    
+}
+.flex-card4{
+    width: 428px;
+    height:220px;
+    background-color:rgba(219, 104, 37, 1);
+    border-radius:20px;
+    border: none;
+    color:  #f7f7f7;
+    margin-left: 10px;
+  
+    
+}
