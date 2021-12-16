@@ -373,6 +373,26 @@ body {
   margin-left: 30px;
 }
 
+.flex-card-title2 {
+  width: 90px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 90%;
+  margin-left: 30px;
+}
+
+.flex-card-title3 {
+  width: 200px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 90%;
+  margin-left: 30px;
+}
+
 .flex-card-text {
   font-family: Nunito;
   font-style: normal;
@@ -401,9 +421,19 @@ body {
   margin-left: 30px;
 }
 
+.flex-card-price2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 32px;
+  margin-left: 30px;
+}
+
 .flex-card-img {
   width: 300px;
   height: 218px;
+  border-radius: 18px;
   background-blend-mode: overlay;
   position: relative;
   top: -217px;
@@ -417,6 +447,16 @@ body {
   position: relative;
   top: -181px;
   left: 125px;
+}
+
+.flex-card-img3 {
+  width: 280px;
+  height: 200px;
+  background-blend-mode: overlay;
+  position: relative;
+  top: -176px;
+  left: 145px;
+  border-radius: 12px;
 }
 
 .cart-button-2 {
@@ -464,5 +504,65 @@ body {
   border: none;
   color: #f7f7f7;
   margin-left: 10px;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.card-box-text {
+  width: 206px;
+  height: 48px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24p;
+}
+
+.flex-dogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+
+.flex-dogs-flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+}
+
+.flex-dogs-flex-box-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7b8e98;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+
+.flex-dogs-text {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a1a1a;
+  width: 200px;
+  margin-top: -10px;
 }
 /*# sourceMappingURL=main.css.map */
