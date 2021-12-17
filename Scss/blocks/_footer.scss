@@ -1,0 +1,157 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.footer{
+        display:flex;
+        justify-content:space-around;
+       margin-left: auto;
+      margin-right: auto;
+     width: 900px;
+     height:992px
+    
+}
+.footer-wrapper{ 
+    background-color: $color-navbar;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+   
+}
+
+.footer-card{
+    width:240px ;
+  margin-left: -280px;
+    display: flex;
+   margin-left: 40px;
+
+}
+.footer-card-text{
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46px;
+    color: rgba(26, 26, 26, 1);
+}
+.footer-card-text2{
+    width: 290px;
+    font-family: Nunito;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+color: rgba(26, 26, 26, 1);
+}
+.footer-input{
+    width: 218px;
+    
+    margin-top: 20px;
+    border-radius: 17px;
+    border: none;
+    padding:15px 18px;
+}
+.footer-button{
+     
+     margin-top:30px;
+border-radius:16px;
+border: none;
+padding:18px 50px;
+}
+.footer-button:hover{
+    background-color:rgba(254, 215, 0, 1);
+    border: 2px solid;
+    border-color: antiquewhite;
+    color: blue;
+   
+}
+.footer-img{
+    margin-left: 80px;
+    margin-top: 180px;
+}
+.last-part-text{
+    width:190px ;
+    font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+}
+
+.last-part{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.last-part-ul{
+    list-style-type: none;
+    margin-left: 60px;
+   
+}
+.last-part-list{
+    margin-top: 15px;
+    transition:1s ease;
+    
+}
+.last-part-links{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    transition: 1s ease;
+}
+.last-part-list:hover{
+    transform:translatey(5px);
+}
+.last-part-links:hover{
+color: rgb(40, 97, 146);    
+}
+
+.the-end{
+ 
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 29px;
+color: #161515;
+}
+.contact-number{
+    text-decoration: none;
+    color: #161515;
+    
+}
+.contact-number:hover{
+    color: #0f0c1ad3;
+    margin-top: 30px;
+  
+}
+.email-part{
+    text-decoration: none;
+     color: #161515;
+  
+    
+   
+}
+.email-part:hover{
+    color: #150a47cc;
+
+
+}
+.web-links{
+    text-decoration: none;
+   
+   
+}
+.web-links~.web-links{
+    margin-left: 10px;
+}
+.footer-ending{
+    width: 200px;
+    margin-left: 40px;
+}
+.web{
+    margin-top: 20px;
+}
+.email{
+    margin-top: 10px;
+}
