@@ -7,17 +7,29 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 92px;
+}
+
+.container {
+  width: 1110px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header-wrapper {
-  background-color: #fed700;
+.header {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 30px;
+}
+
+.header-wrapper {
+  background-color: #fed700;
 }
 
 .navbar-logo {
@@ -139,6 +151,16 @@ body {
   width: 400px;
   height: 239px;
   margin-top: 90px;
+}
+
+.header-button {
+  display: none;
+}
+
+@media only screen and (max-width: 893px) {
+  .navbar-input {
+    width: 200px;
+  }
 }
 
 .menu {

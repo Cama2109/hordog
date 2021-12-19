@@ -5,19 +5,26 @@ body{
 }
 .navbar{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
    margin-left: auto;
   margin-right: auto;
-//  width: 700px;
-//  height:92px
+ width: 700px;
+ height:92px
+}
+.container{ width: 1110px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-
-.header-wrapper{
-    background-color: $color-navbar;
+.header{
+   
+   
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px;
+}
+.header-wrapper{
+  background-color: $color-navbar;
 }
 .navbar-logo {
     width: 100px;
@@ -127,8 +134,16 @@ background-color: transparent;
         height: 239px;
         margin-top: 90px;
       }
+.header-button{
+  display: none;
+}
+      @include breakpoint-down(893px){
+        .navbar-input{
+          width: 200px;
+        }
 
-  
+        }
+       
 
           
         
