@@ -37,6 +37,7 @@ line-height: 22px;
     .main-part-card{
       width: 500px;
      
+     
     }
     .main-part-title{
         margin-top: 80px;
@@ -421,6 +422,16 @@ color: rgba(26, 26, 26, 1);
 width: 200px;
 margin-top: -10px;
 }
+@include breakpoint-down(823px){
+    .flex-dogs{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+       margin-left: -20px;
+       
+    }
+
+    }
 .info-cards{
     display: flex;
     justify-content: center;
@@ -493,3 +504,37 @@ margin-right:auto ;
  
     border-radius: 20px;
 }
+
+@include breakpoint-down(853px){
+    .info-cards{ width: 400px;
+       flex-wrap: wrap;
+margin-left:50px;
+
+    }
+
+    }
+    @include breakpoint-down(809px){
+        .main-part-card2{
+          width: 500px;
+         
+         
+        }
+        .main-part-title{
+            margin-top: 80px;
+            width:300px;
+            color: #f7f7f7;
+            font-family: Nunito;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 27px;
+        line-height: 30px
+        }
+        .main-part-img{
+            width: 250px;
+            height:250px;
+            margin-top: 40px;
+            margin-left:-39px;
+            border-radius:12px;
+        }
+    
+        }

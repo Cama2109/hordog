@@ -691,6 +691,18 @@ body {
   margin-top: -10px;
 }
 
+@media only screen and (max-width: 823px) {
+  .flex-dogs {
+    width: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -20px;
+  }
+}
+
 .info-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -780,6 +792,38 @@ body {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 853px) {
+  .info-cards {
+    width: 400px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 809px) {
+  .main-part-card2 {
+    width: 500px;
+  }
+  .main-part-title {
+    margin-top: 80px;
+    width: 300px;
+    color: #f7f7f7;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .main-part-img {
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: -39px;
+    border-radius: 12px;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -793,15 +837,8 @@ body {
       justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
-  height: 992px;
-}
-
-.footer-wrapper {
+  width: 1110px;
   background-color: #fed700;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px;
 }
 
 .footer-card {
@@ -950,5 +987,42 @@ body {
 
 .email {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 906px) {
+  .footer-card {
+    width: 500px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -170px;
+  }
+  .footer-img {
+    margin-left: -20px;
+    margin-top: 30px;
+  }
+  .last-part {
+    width: 230px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -150px;
+  }
+  .last-part-ul {
+    margin-left: -20px;
+    margin-right: 40px;
+  }
+  .footer {
+    margin-left: -170px;
+  }
+  .footer-card-text {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 46px;
+    color: #1a1a1a;
+  }
 }
 /*# sourceMappingURL=main.css.map */

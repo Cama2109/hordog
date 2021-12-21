@@ -7,17 +7,11 @@ body{
         justify-content:space-around;
        margin-left: auto;
       margin-right: auto;
-     width: 900px;
-     height:992px
-    
-}
-.footer-wrapper{ 
-    background-color: $color-navbar;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+     width: 1110px;
    
+     background-color: $color-navbar;
 }
+
 
 .footer-card{
     width:240px ;
@@ -155,3 +149,38 @@ color: #161515;
 .email{
     margin-top: 10px;
 }
+@include breakpoint-down(906px){
+   .footer-card{  width: 500px;
+       flex-wrap: wrap;
+       margin-left: -170px;
+}
+.footer-img{
+ margin-left: -20px;
+    margin-top: 30px;
+}
+.last-part{
+    
+     width: 230px;
+   
+    display: flex;
+    flex-wrap: wrap;
+  margin-left: -150px;
+   
+    
+}
+.last-part-ul{
+    margin-left:-20px;
+    margin-right: 40px;
+}
+.footer{ margin-left: -170px;
+}
+.footer-card-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 46px;
+    color: rgba(26, 26, 26, 1);
+}
+}
+    
