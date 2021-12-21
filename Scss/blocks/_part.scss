@@ -33,6 +33,31 @@ line-height: 22px;
 .main-part-img{
     margin-top: 14px;
 }
+@include breakpoint-down(809px){
+    .main-part-card{
+      width: 500px;
+     
+    }
+    .main-part-title{
+        margin-top: 80px;
+        width:300px;
+        color: #f7f7f7;
+        font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 30px
+    }
+    .main-part-img{
+        width: 250px;
+        height:250px;
+        margin-top: 40px;
+        margin-left:-39px;
+        border-radius:12px;
+    }
+
+    }
+
 .headline{
     display: flex;
     justify-content:space-between;
@@ -65,6 +90,15 @@ line-height: 32px;
     background-color:#f7f7f71a;
     
 }
+@include breakpoint-down(809px){
+    .headline{
+        display: flex;
+        justify-content:space-around;
+      margin-left: -170px;
+    }
+
+    }
+   
 .cards{
     width: 800px;
     display: flex;
@@ -146,6 +180,14 @@ border: none !important;
 border-radius:22px;
 margin-top:40px;
 }
+@include breakpoint-down(823px){
+    .cards{
+        width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    }
 .flex-cards{
     display: flex;
     justify-content: center;
@@ -265,6 +307,20 @@ background-blend-mode: overlay;
     left: 145px;
     border-radius: 12px;
 }
+@include breakpoint-down(893px){
+    .flex-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: 700px;
+        height:490px;
+    justify-content: start;
+    
+    }
+
+
+    }
+
 .cart-button-2{
     width: 115px;
     height: 40px;
@@ -327,6 +383,14 @@ font-weight: 800;
 font-size: 20px;
 line-height: 24p
 }
+@include breakpoint-down(823px){
+    .boxes{
+        width: 460px;
+      flex-wrap:wrap ;
+      justify-content:start;
+    }
+
+    }
 .flex-dogs{
     display: flex;
     justify-content: center;

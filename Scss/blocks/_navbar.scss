@@ -9,22 +9,27 @@ body{
    margin-left: auto;
   margin-right: auto;
  width: 700px;
- height:92px
+ height:92px;
 }
-.container{ width: 1110px;
-  margin-left:auto;
-  margin-right:auto;
+ .container{  width: 1110px;
+   margin-left:auto;
+   margin-right:auto;
 }
+// hato containerda 
 
+.header-card{
+  width: 700px;
+}
 .header{
    
-   
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 30px;
 }
 .header-wrapper{
+  width: 1110px; 
+  margin-left: auto;
+  margin-right: auto;
   background-color: $color-navbar;
+ 
 }
 .navbar-logo {
     width: 100px;

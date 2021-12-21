@@ -13,8 +13,34 @@
     height: 92px;
     margin-left: 20px;
     margin-top: 20px;
+   
     }
 
 .menu-img ~.menu-img {
    margin-left:35px;
 }
+@include breakpoint-down(813px){
+    .menu{ width: 400px;
+        height:332px;
+        display: flex;
+        flex-wrap: wrap;
+       
+     
+    }
+
+    }
+    @include breakpoint-down(700px){
+        .menu{ width: 400px;
+            height:332px;
+            margin-left: auto;
+            margin-right:auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right:auto;
+           
+         
+        }
+    
+        }
+   
